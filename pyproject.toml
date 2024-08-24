@@ -28,5 +28,5 @@ dev = [
 [project.scripts]
 app = "web.app:main"
 
-["tool.pylint."messages control"]
+["tool.pylint.messages_control]
 disable = ["missing-function-docstring", "missing-module-docstring"]
