@@ -9,7 +9,7 @@ jobs:
       - checkout
       - run:
           name: pip install
-          command: pip install .
+          command: pip install .[dev]
       - run:
           name: Run tests
           command: python -m pytest
