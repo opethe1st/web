@@ -12,10 +12,10 @@ jobs:
           command: pip install .
       - run:
           name: Run tests
-          command: pytest
+          command: python -m pytest
       - run:
           name: Run linter
-          command: pylint web tests
+          command: python -m pylint web tests
 
 workflows:
   version: 2
