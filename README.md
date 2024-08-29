@@ -1,2 +1,2 @@
-# web
-Experimenting with a web service in python
+# web app
+Experimenting with a web app in python
